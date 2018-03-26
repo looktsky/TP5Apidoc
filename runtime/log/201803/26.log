@@ -1,0 +1,1279 @@
+---------------------------------------------------------------
+[ 2018-03-26T21:54:19+08:00 ] 127.0.0.1 GET /app/appdoc
+[ error ] [1]Class 'app\app\doc\Doc' not found
+---------------------------------------------------------------
+[ 2018-03-26T21:54:54+08:00 ] 127.0.0.1 GET /app/appdoc
+[ info ] www.ltk2.com/app/appdoc [运行时间：0.026969s][吞吐率：37.08req/s] [内存消耗：1,672.95kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'appdoc',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\app\doc\Doc' not found[D:\xampp\htdocs\test\application\app\controller\Appdoc.php:16]
+---------------------------------------------------------------
+[ 2018-03-26T21:56:57+08:00 ] 127.0.0.1 GET /app/appdoc
+[ info ] www.ltk2.com/app/appdoc [运行时间：0.023584s][吞吐率：42.40req/s] [内存消耗：1,338.02kb] [文件加载：39]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'appdoc',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T21:57:02+08:00 ] 127.0.0.1 GET /app/apidoc
+[ info ] www.ltk2.com/app/apidoc [运行时间：0.046732s][吞吐率：21.40req/s] [内存消耗：1,888.54kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->index[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ VIEW ] D:\xampp\htdocs\test\public/../application/app\view\apidoc\index.html [ array (
+  0 => 'root',
+  1 => 'doc',
+  2 => 'title',
+  3 => 'version',
+  4 => 'copyright',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T21:57:02+08:00 ] 127.0.0.1 GET /app/apidoc/getlist.html
+[ info ] www.ltk2.com/app/apidoc/getlist.html [运行时间：0.028076s][吞吐率：35.62req/s] [内存消耗：1,708.16kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'getlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->getList[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T21:57:02+08:00 ] 127.0.0.1 GET /app/apidoc/search.html
+[ info ] www.ltk2.com/app/apidoc/search.html [运行时间：0.064791s][吞吐率：15.43req/s] [内存消耗：1,919.54kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.ltk2.com/app/apidoc',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ VIEW ] D:\xampp\htdocs\test\public/../application/app\view\apidoc\search.html [ array (
+  0 => 'root',
+  1 => 'doc',
+  2 => 'title',
+  3 => 'version',
+  4 => 'copyright',
+  5 => 'module',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T21:57:06+08:00 ] 127.0.0.1 GET /app/apidoc/getinfo?name=app\app\controller\Demo::index
+[ info ] www.ltk2.com/app/apidoc/getinfo?name=app\app\controller\Demo::index [运行时间：0.137493s][吞吐率：7.27req/s] [内存消耗：1,961.39kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'getinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.ltk2.com/app/apidoc',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'app\\app\\controller\\Demo::index',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->getinfo[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ VIEW ] D:\xampp\htdocs\test\public/../application/app\view\apidoc\info.html [ array (
+  0 => 'root',
+  1 => 'title',
+  2 => 'version',
+  3 => 'copyright',
+  4 => 'doc',
+  5 => 'return',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T21:57:11+08:00 ] 127.0.0.1 GET /app/Demo/index?public=1&id=1
+[ info ] www.ltk2.com/app/Demo/index?public=1&id=1 [运行时间：0.022748s][吞吐率：43.96req/s] [内存消耗：1,584.81kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'Demo',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'public' => '1',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\app\controller\Demo->index[ D:\xampp\htdocs\test\application\app\controller\Demo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T21:57:11+08:00 ] 127.0.0.1 POST /app/apidoc/debug.html
+[ info ] www.ltk2.com/app/apidoc/debug.html [运行时间：0.065511s][吞吐率：15.26req/s] [内存消耗：1,680.18kb] [文件加载：44]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'debug',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '88',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.ltk2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.ltk2.com/app/apidoc/getinfo?name=app\\app\\controller\\Demo::index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.ltk2.com/app/Demo/index',
+  'method_type' => 'GET',
+  'cookie' => '',
+  'public' => '1',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->debug[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:03+08:00 ] 127.0.0.1 GET /app/Demo/index?public=test&id=11
+[ info ] www.ltk2.com/app/Demo/index?public=test&id=11 [运行时间：0.022738s][吞吐率：43.98req/s] [内存消耗：1,584.77kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'Demo',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'public' => 'test',
+  'id' => '11',
+)
+[ info ] [ RUN ] app\app\controller\Demo->index[ D:\xampp\htdocs\test\application\app\controller\Demo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:03+08:00 ] 127.0.0.1 POST /app/apidoc/debug.html
+[ info ] www.ltk2.com/app/apidoc/debug.html [运行时间：0.063184s][吞吐率：15.83req/s] [内存消耗：1,680.09kb] [文件加载：44]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'debug',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '92',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.ltk2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.ltk2.com/app/apidoc/getinfo?name=app\\app\\controller\\Demo::index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.ltk2.com/app/Demo/index',
+  'method_type' => 'GET',
+  'cookie' => '',
+  'public' => 'test',
+  'id' => '11',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->debug[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:40+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=L
+[ info ] www.ltk2.com/app/apidoc/search.html?query=L [运行时间：0.058957s][吞吐率：16.96req/s] [内存消耗：1,708.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'L',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:41+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=LT
+[ info ] www.ltk2.com/app/apidoc/search.html?query=LT [运行时间：0.046281s][吞吐率：21.61req/s] [内存消耗：1,708.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'LT ',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:41+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=LTK
+[ info ] www.ltk2.com/app/apidoc/search.html?query=LTK [运行时间：0.062769s][吞吐率：15.93req/s] [内存消耗：1,708.56kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'LTK',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:41+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=LTK
+[ info ] www.ltk2.com/app/apidoc/search.html?query=LTK [运行时间：0.046380s][吞吐率：21.56req/s] [内存消耗：1,708.56kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'LTK',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:45+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=z
+[ info ] www.ltk2.com/app/apidoc/search.html?query=z [运行时间：0.046687s][吞吐率：21.42req/s] [内存消耗：1,708.62kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'z',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:45+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=zh
+[ info ] www.ltk2.com/app/apidoc/search.html?query=zh [运行时间：0.023735s][吞吐率：42.13req/s] [内存消耗：1,708.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'zh',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:45+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=zhu
+[ info ] www.ltk2.com/app/apidoc/search.html?query=zhu [运行时间：0.044593s][吞吐率：22.42req/s] [内存消耗：1,708.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'zhu',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:45+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=zhuo
+[ info ] www.ltk2.com/app/apidoc/search.html?query=zhuo [运行时间：0.049767s][吞吐率：20.09req/s] [内存消耗：1,708.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'zhuo',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:46+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=zhu
+[ info ] www.ltk2.com/app/apidoc/search.html?query=zhu [运行时间：0.039443s][吞吐率：25.35req/s] [内存消耗：1,708.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'zhu',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:46+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=zh
+[ info ] www.ltk2.com/app/apidoc/search.html?query=zh [运行时间：0.038654s][吞吐率：25.87req/s] [内存消耗：1,708.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'zh',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:47+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=z
+[ info ] www.ltk2.com/app/apidoc/search.html?query=z [运行时间：0.038823s][吞吐率：25.76req/s] [内存消耗：1,708.62kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'z',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:48+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=zzu
+[ info ] www.ltk2.com/app/apidoc/search.html?query=zzu [运行时间：0.040966s][吞吐率：24.41req/s] [内存消耗：1,708.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'zzu',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:48+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=zzu
+[ info ] www.ltk2.com/app/apidoc/search.html?query=zzu [运行时间：0.020501s][吞吐率：48.78req/s] [内存消耗：1,708.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'zzu',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:48+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=zzuo
+[ info ] www.ltk2.com/app/apidoc/search.html?query=zzuo [运行时间：0.039835s][吞吐率：25.10req/s] [内存消耗：1,708.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'zzuo',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:48+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=zzu
+[ info ] www.ltk2.com/app/apidoc/search.html?query=zzu [运行时间：0.061268s][吞吐率：16.32req/s] [内存消耗：1,708.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'zzu',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:49+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=zz
+[ info ] www.ltk2.com/app/apidoc/search.html?query=zz [运行时间：0.047737s][吞吐率：20.95req/s] [内存消耗：1,708.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'zz',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:49+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=z
+[ info ] www.ltk2.com/app/apidoc/search.html?query=z [运行时间：0.046094s][吞吐率：21.69req/s] [内存消耗：1,708.62kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'z',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:49+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=zu
+[ info ] www.ltk2.com/app/apidoc/search.html?query=zu [运行时间：0.042433s][吞吐率：23.57req/s] [内存消耗：1,708.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'zu',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:49+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=zuo
+[ info ] www.ltk2.com/app/apidoc/search.html?query=zuo [运行时间：0.045813s][吞吐率：21.83req/s] [内存消耗：1,708.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'zuo',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:51+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=%E4%BD%9C
+[ info ] www.ltk2.com/app/apidoc/search.html?query=%E4%BD%9C [运行时间：0.061006s][吞吐率：16.39req/s] [内存消耗：1,708.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => '作',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:54+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=d
+[ info ] www.ltk2.com/app/apidoc/search.html?query=d [运行时间：0.048749s][吞吐率：20.51req/s] [内存消耗：1,708.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'd',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:55+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=de
+[ info ] www.ltk2.com/app/apidoc/search.html?query=de [运行时间：0.039419s][吞吐率：25.37req/s] [内存消耗：1,708.56kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'de',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:55+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=dem
+[ info ] www.ltk2.com/app/apidoc/search.html?query=dem [运行时间：0.043900s][吞吐率：22.78req/s] [内存消耗：1,708.56kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'dem',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:55+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=demo
+[ info ] www.ltk2.com/app/apidoc/search.html?query=demo [运行时间：0.041484s][吞吐率：24.11req/s] [内存消耗：1,708.56kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'demo',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:58+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=dem
+[ info ] www.ltk2.com/app/apidoc/search.html?query=dem [运行时间：0.037237s][吞吐率：26.86req/s] [内存消耗：1,708.56kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'dem',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:58+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=de
+[ info ] www.ltk2.com/app/apidoc/search.html?query=de [运行时间：0.045373s][吞吐率：22.04req/s] [内存消耗：1,708.56kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'de',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:04:58+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=d
+[ info ] www.ltk2.com/app/apidoc/search.html?query=d [运行时间：0.039708s][吞吐率：25.18req/s] [内存消耗：1,708.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'd',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:05:01+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=o
+[ info ] www.ltk2.com/app/apidoc/search.html?query=o [运行时间：0.045716s][吞吐率：21.87req/s] [内存消耗：1,708.64kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'o',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:05:03+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=a
+[ info ] www.ltk2.com/app/apidoc/search.html?query=a [运行时间：0.044877s][吞吐率：22.28req/s] [内存消耗：1,708.64kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'a',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:05:05+08:00 ] 127.0.0.1 GET /app/apidoc/getinfo?name=app\app\controller\Demo::login
+[ info ] www.ltk2.com/app/apidoc/getinfo?name=app\app\controller\Demo::login [运行时间：0.023558s][吞吐率：42.45req/s] [内存消耗：1,769.57kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'getinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.ltk2.com/app/apidoc',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'app\\app\\controller\\Demo::login',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->getinfo[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ VIEW ] D:\xampp\htdocs\test\public/../application/app\view\apidoc\info.html [ array (
+  0 => 'root',
+  1 => 'title',
+  2 => 'version',
+  3 => 'copyright',
+  4 => 'doc',
+  5 => 'return',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:05:07+08:00 ] 127.0.0.1 GET /app/apidoc/getinfo?name=app\app\controller\Demo::index
+[ info ] www.ltk2.com/app/apidoc/getinfo?name=app\app\controller\Demo::index [运行时间：0.022284s][吞吐率：44.88req/s] [内存消耗：1,770.66kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'getinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.ltk2.com/app/apidoc',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'app\\app\\controller\\Demo::index',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->getinfo[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ VIEW ] D:\xampp\htdocs\test\public/../application/app\view\apidoc\info.html [ array (
+  0 => 'root',
+  1 => 'title',
+  2 => 'version',
+  3 => 'copyright',
+  4 => 'doc',
+  5 => 'return',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:05:09+08:00 ] 127.0.0.1 GET /app/apidoc/getinfo?name=app\app\controller\Demo::login
+[ info ] www.ltk2.com/app/apidoc/getinfo?name=app\app\controller\Demo::login [运行时间：0.022369s][吞吐率：44.70req/s] [内存消耗：1,769.57kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'getinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.ltk2.com/app/apidoc',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'app\\app\\controller\\Demo::login',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->getinfo[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ VIEW ] D:\xampp\htdocs\test\public/../application/app\view\apidoc\info.html [ array (
+  0 => 'root',
+  1 => 'title',
+  2 => 'version',
+  3 => 'copyright',
+  4 => 'doc',
+  5 => 'return',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:05:13+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=d
+[ info ] www.ltk2.com/app/apidoc/search.html?query=d [运行时间：0.045297s][吞吐率：22.08req/s] [内存消耗：1,708.59kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'd',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-26T22:05:13+08:00 ] 127.0.0.1 GET /app/apidoc/search.html?query=de
+[ info ] www.ltk2.com/app/apidoc/search.html?query=de [运行时间：0.042409s][吞吐率：23.58req/s] [内存消耗：1,708.56kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\test\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'apidoc',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ltk2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.ltk2.com/app/apidoc/search.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'query' => 'de',
+)
+[ info ] [ RUN ] app\app\controller\Apidoc->search[ D:\xampp\htdocs\test\application\app\controller\Apidoc.php ]
+[ info ] [ LOG ] INIT File
